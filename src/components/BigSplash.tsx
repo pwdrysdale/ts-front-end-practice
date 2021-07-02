@@ -2,6 +2,8 @@ import { useContext, useState } from "react";
 
 import { AppContext } from "../context/AppProvider";
 
+import oys from "./bballnight.jpeg";
+
 const BigSplash = () => {
     const [logText, setLogText] = useState("");
     const { state } = useContext(AppContext);
@@ -15,7 +17,7 @@ const BigSplash = () => {
         <div
             className=" bg-local w-full h-screen"
             style={{
-                backgroundImage: `url(${"/bballnight.jpeg"}
+                backgroundImage: `url(${oys}
                 )`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
