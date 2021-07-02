@@ -2,8 +2,6 @@ import { useContext, useState } from "react";
 
 import { AppContext } from "../context/AppProvider";
 
-import oys from "./bballnight.jpeg";
-
 const BigSplash = () => {
     const [logText, setLogText] = useState("");
     const { state } = useContext(AppContext);
@@ -14,16 +12,7 @@ const BigSplash = () => {
     };
 
     return (
-        <div
-            className=" bg-local w-full h-screen"
-            style={{
-                backgroundImage: `url(${oys}
-                )`,
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-            }}
-        >
+        <div className=" bg-local w-full h-screen boys">
             <div className="grid grid-cols-3 grid-rows-3 container mx-auto h-full ">
                 <h1 className="uppercase text-white  row-start-2 self-center justify-end text-right text-9xl text-shadow font-black">
                     We play
