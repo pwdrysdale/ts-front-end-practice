@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+
+import { AppProvider } from "./context/AppProvider";
+
+import Toasts from "./components/Toasts";
+import Navbar from "./components/Navbar";
+import BigSplash from "./components/BigSplash";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <AppProvider>
+            <div className="bg-gray-900">
+                <Router>
+                    <Navbar />
+                    <BigSplash />
+                    <main className="container mx-auto"></main>
+                </Router>
+            </div>
+            <Toasts />
+        </AppProvider>
+    );
 }
 
+<div className="px-9 py-3 mx-auto grid grid-cols-3 items-center text-white w-11/12  max-w-7xl"></div>;
+
 export default App;
+
+// context setup inspired by
+// https://codesandbox.io/s/context-reducer-ts-9ctis?file=/src/reducers.ts
