@@ -30,12 +30,12 @@ const BigSplash = () => {
                             id="logger"
                             value={logText}
                             onChange={(e) => setLogText(e.target.value)}
-                            className="p-2"
+                            className="p-2 rounded-md"
                         />
                         <input
                             type="submit"
                             value="Submit"
-                            className="w-max px-4 py-2 rounded-sm bg-blue-500 text-white hover:bg-blue-700 cursor-pointer"
+                            className="w-max px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-700 cursor-pointer"
                         />
                     </form>
                 </div>
