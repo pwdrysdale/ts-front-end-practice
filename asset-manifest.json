@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/ts-front-end-practice/static/css/main.a7c280fe.chunk.css",
-    "main.js": "/ts-front-end-practice/static/js/main.75f1fb68.chunk.js",
-    "main.js.map": "/ts-front-end-practice/static/js/main.75f1fb68.chunk.js.map",
+    "main.css": "/ts-front-end-practice/static/css/main.a406beb2.chunk.css",
+    "main.js": "/ts-front-end-practice/static/js/main.9c088427.chunk.js",
+    "main.js.map": "/ts-front-end-practice/static/js/main.9c088427.chunk.js.map",
     "runtime-main.js": "/ts-front-end-practice/static/js/runtime-main.e6ec1b4e.js",
     "runtime-main.js.map": "/ts-front-end-practice/static/js/runtime-main.e6ec1b4e.js.map",
     "static/js/2.00907a13.chunk.js": "/ts-front-end-practice/static/js/2.00907a13.chunk.js",
     "static/js/2.00907a13.chunk.js.map": "/ts-front-end-practice/static/js/2.00907a13.chunk.js.map",
     "index.html": "/ts-front-end-practice/index.html",
-    "static/css/main.a7c280fe.chunk.css.map": "/ts-front-end-practice/static/css/main.a7c280fe.chunk.css.map",
-    "static/js/2.00907a13.chunk.js.LICENSE.txt": "/ts-front-end-practice/static/js/2.00907a13.chunk.js.LICENSE.txt"
+    "static/css/main.a406beb2.chunk.css.map": "/ts-front-end-practice/static/css/main.a406beb2.chunk.css.map",
+    "static/js/2.00907a13.chunk.js.LICENSE.txt": "/ts-front-end-practice/static/js/2.00907a13.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ts-front-end-practice/static/media/bballnight.f7d81137.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.e6ec1b4e.js",
     "static/js/2.00907a13.chunk.js",
-    "static/css/main.a7c280fe.chunk.css",
-    "static/js/main.75f1fb68.chunk.js"
+    "static/css/main.a406beb2.chunk.css",
+    "static/js/main.9c088427.chunk.js"
   ]
 }
